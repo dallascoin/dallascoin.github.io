@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | DALLAS Memecoin</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script defer src="js/scripts.js"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <img src="images/logo.png" alt="DALLAS Memecoin Logo" class="logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="tokenomics.html">Tokenomics</a></li>
-                <li><a href="roadmap.html">Roadmap</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="about">
-            <h2>Our Mission</h2>
-            <p>At DALLAS Memecoin, we merge the spirit of cowboy culture with cutting-edge cryptocurrency technology. Our mission is to empower individuals with financial freedom and foster a vibrant community.</p>
-            <h2>Our Story</h2>
-            <p>Founded by a team of crypto enthusiasts and cowboy culture fans, DALLAS Memecoin was born from a desire to create something unique and impactful.</p>
-            <h2>Our Values</h2>
-            <ul>
-                <li>Transparency</li>
-                <li>Innovation</li>
-                <li>Community Engagement</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 DALLAS Memecoin. All rights reserved.</p>
-        <ul class="social-links">
-            <li><a href="https://telegram.me/dallasmemecoin">Telegram</a></li>
-            <li><a href="https://twitter.com/dallasmemecoin">Twitter</a></li>
-            <li><a href="https://discord.gg/dallasmemecoin">Discord</a></li>
-        </ul>
-    </footer>
-</body>
-</html>
 
+<body>
+<!-- Header with navigation -->
+<header>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.jpeg" alt="DALLAS Memecoin Logo" class="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Us</a></li>
+            <li><a href="tokenomics.html">Tokenomics</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- About Us Section -->
+<main>
+    <section class="about-page">
+        <div class="about-container">
+            <h1>About DALLAS Memecoin</h1>
+            <p>At DALLAS Memecoin, we combine the thrill of the Wild West with the transformative power of blockchain technology. Our mission is to create an engaging and empowering community where everyone can thrive.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <h2>Our Story</h2>
+                    <p>DALLAS Memecoin was founded by a group of crypto enthusiasts and cowboy culture fans. We envisioned a cryptocurrency that would be as bold and adventurous as the American frontier.</p>
+                </div>
+                <div class="about-item">
+                    <h2>Our Vision</h2>
+                    <p>We aim to build a global network where innovation, collaboration, and financial freedom are accessible to all. DALLAS Memecoin is not just a currency; it's a movement.</p>
+                </div>
+                <div class="about-item">
+                    <h2>Our Team</h2>
+                    <p>Our team is a diverse group of experts in technology, finance, and community building, all united by a shared passion for making cryptocurrency accessible and exciting for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 DALLAS Memecoin. All rights reserved.</p>
+    <ul class="social-links">
+        <li><a href="https://telegram.me/dallasmemecoin"><img src="images/Telegram_logo.svg" alt="Telegram"></a></li>
+        <li><a href="https://twitter.com/dallasmemecoin"><img src="images/X_icon_2.svg" alt="Twitter"></a></li>
+        <li><a href=""><img src="images/dexscreener.png" alt="DexScreener"></a></li>
+    </ul>
+    <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+</footer>
+</body>
+
+</html>

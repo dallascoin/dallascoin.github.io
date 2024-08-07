@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tokenomics | DALLAS Memecoin</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script defer src="js/scripts.js"></script>
 </head>
-<body>
-    <header>
-        <nav>
-            <img src="images/logo.png" alt="DALLAS Memecoin Logo" class="logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="tokenomics.html">Tokenomics</a></li>
-                <li><a href="roadmap.html">Roadmap</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="tokenomics">
-            <h2>Tokenomics</h2>
-            <h3>Total Supply: 1 Billion DALLAS Coins</h3>
-            <p>Explore our innovative economic model designed for growth and sustainability.</p>
-            <h3>Distribution</h3>
-            <ul>
-                <li>Community Rewards: 40%</li>
-                <li>Development: 30%</li>
-                <li>Marketing: 20%</li>
-                <li>Reserve: 10
 
+<body>
+<!-- Header with navigation -->
+<header>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.jpeg" alt="DALLAS Memecoin Logo" class="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="tokenomics.html" class="active">Tokenomics</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Tokenomics Section -->
+<main>
+    <section class="tokenomics-page">
+        <div class="tokenomics-container">
+            <h1 class="fade-in">Our Tokenomics</h1>
+            <p class="fade-in">Our tokenomics strategy is designed to support a thriving ecosystem that benefits all stakeholders. Below is the breakdown of our token distribution:</p>
+            <div class="tokenomics-stats fade-in-up">
+                <div class="stat">
+                    <h3>1 Billion</h3>
+                    <p>Total Supply</p>
+                </div>
+                <div class="stat">
+                    <h3>40%</h3>
+                    <p>Community Rewards</p>
+                </div>
+                <div class="stat">
+                    <h3>30%</h3>
+                    <p>Development</p>
+                </div>
+                <div class="stat">
+                    <h3>20%</h3>
+                    <p>Marketing</p>
+                </div>
+                <div class="stat">
+                    <h3>10%</h3>
+                    <p>Reserve</p>
+                </div>
+            </div>
+            <p class="fade-in-up">Our allocation model ensures that each sector receives the necessary resources to drive growth and innovation.</p>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 DALLAS Memecoin. All rights reserved.</p>
+    <ul class="social-links">
+        <li><a href="https://telegram.me/dallasmemecoin"><img src="images/Telegram_logo.svg" alt="Telegram"></a></li>
+        <li><a href="https://twitter.com/dallasmemecoin"><img src="images/X_icon_2.svg" alt="Twitter"></a></li>
+        <li><a href=""><img src="images/dexscreener.png" alt="DexScreener"></a></li>
+    </ul>
+    <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+</footer>
+</body>
+
+</html>
